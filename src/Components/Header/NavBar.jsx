@@ -19,7 +19,7 @@ class NavBar extends Component {
 
   render() {
     return (
-      <Menu class="menu-bar" secondary>
+      <Menu className="menu-bar" secondary>
         <Link to={'/'} ><Menu.Item
           name='Home'
           active={this.state.activeItem === 'Home'}

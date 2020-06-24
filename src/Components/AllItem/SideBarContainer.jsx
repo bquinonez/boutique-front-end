@@ -14,7 +14,7 @@ class SideBarContainer extends Component {
   }
 
   getColorOptions=()=>{
-    let colorArray = ["Red", "Blue", "Black", "Purple", "Orange", "Grey", "Yellow", "Pink", "Green"]
+    let colorArray = ["Red", "Black", "Orange", "Yellow", "Pink", "Brown" ]
     let tagOptions =  colorArray.map(color => {
       return {
         key: color,
@@ -26,21 +26,21 @@ class SideBarContainer extends Component {
     return tagOptions
   }
 
-  getMenuItems=()=>{
-   const { activeItem } = this.state
-   let termArray = ["All","Tunic", "Dress", "Wedding", "Jumpsuit", "Bottom", "Top" ]
-   let menuItems = termArray.map(term => {
-     return (
-       <Menu.Item
-         term={term.toLowerCase()}
-         name= {term}
-         active={activeItem === term}
-         onClick={this.handleAll}
-       />
-     )
-   })
-   return menuItems
-  }
+  // getMenuItems=()=>{
+  //  const { activeItem } = this.state
+  //  let termArray = ["All","Tunic", "Dress", "Wedding", "Jumpsuit", "Bottom", "Top" ]
+  //  let menuItems = termArray.map(term => {
+  //    return (
+  //      <Menu.Item
+  //        term={term.toLowerCase()}
+  //        name= {term}
+  //        active={activeItem === term}
+  //        onClick={this.handleAll}
+  //      />
+  //    )
+  //  })
+  //  return menuItems
+  // }
 
 
   render() {
@@ -71,9 +71,9 @@ class SideBarContainer extends Component {
          </Dropdown.Menu>
          </Dropdown>
 
-       <Menu.Item header>Category</Menu.Item>
-       {this.getMenuItems()}
-      </Menu>
+       {/* <Menu.Item header>Category</Menu.Item>
+       {this.getMenuItems()} */}
+      </Menu> 
     );
   }
 
@@ -85,8 +85,3 @@ export default connect(null, {sortItems})(SideBarContainer);
 
 
 
-// <Menu.Item
-//   name='color'
-//   active={activeItem === 'color'}
-//   onClick={this.filterColor}
-// />

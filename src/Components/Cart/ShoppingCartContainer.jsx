@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ProductInfo from './ProductInfo'
 import CheckoutInfoCard from './CheckoutInfoCard'
 import {connect} from 'react-redux';
-import {Grid, Column, Item} from 'semantic-ui-react'
+import {Grid, Item} from 'semantic-ui-react'
 import emptyCartImg from './empty_cart.png'
 
 

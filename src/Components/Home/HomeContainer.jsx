@@ -14,16 +14,16 @@ class HomeContainer extends Component {
     }
 
     handleJumpsuit=()=>{
-      this.props.sortItems("jumpsuit")
+      // this.props.sortItems("jumpsuit")
       this.props.history.push('/items')
 
     }
 
-    handleDress=()=>{
-      this.props.sortItems("dress")
-      this.props.history.push('/items')
+    // handleDress=()=>{
+    //   this.props.sortItems("dress")
+    //   this.props.history.push('/items')
 
-    }
+    // }
 
   render() {
     return (

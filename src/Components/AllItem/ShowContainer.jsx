@@ -36,7 +36,7 @@ class ShowContainer extends Component {
   )
   .then(r => r.json())
   .then((data) => {
-    console.log(data);
+    // console.log(data);
     // debugger
     this.props.addToCart(data);
     })
@@ -64,7 +64,7 @@ class ShowContainer extends Component {
     })
     .then(r => r.json())
     .then((data) => {
-  // console.log(data);
+  console.log(data);
       this.props.addReviewToState(data)
     })
     //Render an action here that will add review to the state

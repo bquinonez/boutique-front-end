@@ -20,7 +20,7 @@ class ImgContainer extends Component {
 
   filterItems =()=>{
     let filterCategories = ["jumpsuit", "dress", "tunic", "bottom", "wedding", "top"]
-    let colorCategories = ["Red", "Blue", "Black", "Purple", "Orange", "Grey", "Yellow", "Pink", "Green"]
+    let colorCategories = ["Red", "Blue", "Black", "Purple", "Orange", "Grey", "Yellow", "Pink", "Green", "Brown", "Clear", "White"]
     let priceCategories = ["HighToLow", "LowToHigh"]
     let {name, id, color} = this.props.items
     let term = this.props.term.term
