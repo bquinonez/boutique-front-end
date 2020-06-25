@@ -10,7 +10,7 @@ class AboutPage extends Component {
     const src = 'https://react.semantic-ui.com/images/wireframe/image-text.png'
     return (
       <Segment className="about-page">
-        <Image src={wed3} size='xlarge' centered />
+        <Image src={wed3} size='massive' centered />
 
         <h1 className="about-header">Our Belief</h1>
         <p>

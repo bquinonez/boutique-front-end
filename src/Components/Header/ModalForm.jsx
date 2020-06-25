@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Header, Image, Modal, Container, List} from 'semantic-ui-react'
+import { Button, Modal} from 'semantic-ui-react'
+// import { Button, Header, Image, Modal, Container, List} from 'semantic-ui-react'
 import UserForm from './UserForm'
 import {saveErrorToState} from '../../Redux/Actions/userActions'
 import {connect} from 'react-redux'

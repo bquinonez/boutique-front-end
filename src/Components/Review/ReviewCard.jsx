@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Card, Image, Rating, Segment, Divider, Header , Item} from 'semantic-ui-react'
+// import { Button, Card, Image, Rating, Segment, Divider, Header , Item} from 'semantic-ui-react'
+import {  Rating, Divider, Item} from 'semantic-ui-react'
 
 class ReviewCard extends Component {
 

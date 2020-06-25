@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {Divider, Header, Icon} from 'semantic-ui-react'
+import {Divider} from 'semantic-ui-react'
 
 class InfoCard extends Component {
 
   render() {
 
-    let {name, color, size, description, designer, price} = this.props.item
+    let {name, color, description, price} = this.props.item
     return (
       <Divider className="info">
         <p className="infoo">

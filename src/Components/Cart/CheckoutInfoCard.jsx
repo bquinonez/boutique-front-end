@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
-import {Segment, Button} from 'semantic-ui-react'
-import {Link} from 'react-router-dom'
+import {Segment} from 'semantic-ui-react'
+// import {Link} from 'react-router-dom'
 import StripeCheckout from 'react-stripe-checkout';
 import { withRouter } from 'react-router-dom'
 import {addOrderItem} from '../../Redux/Actions/userActions'

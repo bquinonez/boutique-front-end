@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Label, Header,Card, Icon, Button, Divider, Form, Grid, Segment, Menu } from 'semantic-ui-react'
+import {Label, Icon, Button, Divider, Grid } from 'semantic-ui-react'
 import {saveUserToState} from '../../Redux/Actions/userActions'
 import { withRouter } from 'react-router-dom'
 import {Link} from 'react-router-dom'
@@ -48,7 +48,7 @@ class UserProfile extends Component {
 
 }
 
-const mapStateToProps=(state)=>{
+const mapStateToProps = (state)=>{
   // console.log(state);
   return {
     user: state.userInfo.user

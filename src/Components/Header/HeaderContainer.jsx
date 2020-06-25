@@ -4,7 +4,7 @@ import { Dropdown } from 'semantic-ui-react'
 import {connect} from 'react-redux';
 import { withRouter } from 'react-router-dom'
 import {saveUserToState} from '../../Redux/Actions/userActions'
-import { Input, Menu, Segment } from 'semantic-ui-react'
+import { Segment } from 'semantic-ui-react'
 import { Icon } from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
 import logo from './logo.png'

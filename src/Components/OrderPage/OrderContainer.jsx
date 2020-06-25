@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Segment, Button, Image} from 'semantic-ui-react'
+import {Segment, Image} from 'semantic-ui-react'
 import {connect} from 'react-redux'
 import OrderCard from './OrderCard'
 import emptyOrder from "./emptyOrder.png"

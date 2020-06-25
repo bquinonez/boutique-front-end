@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Icon, Input, Menu, Dropdown } from 'semantic-ui-react'
+import { Menu, Dropdown } from 'semantic-ui-react'
 import {connect} from 'react-redux'
 import {sortItems} from '../../Redux/Actions/cartItemAction'
 

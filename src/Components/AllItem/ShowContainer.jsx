@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
 import {connect} from 'react-redux';
-import { Button, Icon, Modal, Header, Segment, Container } from 'semantic-ui-react'
+import { Button, Modal } from 'semantic-ui-react'
 import { withRouter } from 'react-router-dom'
 import ImgCard from './ImgCard'
 import InfoCard from './InfoCard'

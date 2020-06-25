@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Image, Divider, Header } from 'semantic-ui-react'
 import { withRouter } from 'react-router-dom'
 import bdWomen from './images/pic.png'
-import {Link} from 'react-router-dom'
-import ImageCard from '../AllItem/ImgCard'
+// import {Link} from 'react-router-dom'
+// import ImageCard from '../AllItem/ImgCard'
 import {connect} from 'react-redux'
 import {sortItems} from '../../Redux/Actions/cartItemAction'
 

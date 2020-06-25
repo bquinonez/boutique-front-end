@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Segment, Grid} from 'semantic-ui-react'
+// import {Segment, Grid} from 'semantic-ui-react'
 import OrderItemCard from './OrderItemCard'
 
 class OrderCard extends Component {

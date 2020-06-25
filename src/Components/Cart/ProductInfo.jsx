@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import {deleteFromCart, addToCart} from '../../Redux/Actions/cartItemAction'
-import {Form, Input, Segment, Image, Button, Grid, Item, Icon, Header} from 'semantic-ui-react'
+import {Input, Button, Item} from 'semantic-ui-react'
 import {connect} from 'react-redux'
 
 
@@ -60,7 +60,7 @@ class ProductInfo extends Component {
 
   render() {
   // debugger
-    let {size, name, price, image, color} = this.props.cartItem.item
+    let { name, price, image, color} = this.props.cartItem.item
     let {quantity} = this.props.cartItem
     // console.log(this.props.cartItem);
      // console.log(quantity)
